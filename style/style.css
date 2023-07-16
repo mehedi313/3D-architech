@@ -85,7 +85,47 @@ main{
     padding-left: 70px;
     padding-right: 70px;
 }
-
+.section-feature{
+    display: flex;
+    gap: 10px;
+    margin-top: 130px;
+    
+}
+.feature-content .feature-card{
+   padding: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.feature-content .feature-text{
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+    
+}
+ .feature-pic img{
+    width: 500px;
+    
+}
+.ten-btn{
+    width: 300px;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    background: #FF900E;
+    text-align: center;
+   position: relative;
+   bottom: 50px;
+    
+}
+.ten-btn h2{
+    font-size: 60px;
+    margin: 0;
+}
+.ten-btn p{
+    font-size: 25px;
+}
 .team-h{
     font-size: 45px;
 }
@@ -139,7 +179,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .container, .section-icon, .sponsors-img{
+    nav, .container, .section-feature, .section-icon, .sponsors-img{
         flex-direction: column;
     }
     .team-pic{
@@ -150,4 +190,13 @@ main{
         padding: 20px;
         gap: 5px;
     }
+    .feature-pic img{
+        width: 400px;
+       
+    }
+    .section-feature{
+        padding: 10px;
+    }
+
+   
 }
