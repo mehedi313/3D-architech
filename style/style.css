@@ -63,7 +63,7 @@ nav li a{
 }
 main{
     max-width:1000px;
-    margin-left: auto;
+    margin: auto;
     
 }
 .container{
@@ -97,17 +97,57 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
+.section-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.section-icon .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 10px;
+}
+.card .card-title{
+    font-size: 45px;
+    color: #424242;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+.card .card-para{
+    font-size: 20px;
+    color: #727272;
+    font-weight: 600;
+    margin-top:  15px;
+   
+   
+}
+.sponsors{
+    text-align: center;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 40px;
+   gap: 20px;
+   align-items: center;
+}
+.sponsors-img img{
+    width: 166px;
+}
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
     }
-    nav, .container{
+    nav, .container, .section-icon, .sponsors-img{
         flex-direction: column;
     }
     .team-pic{
         grid-template-columns: 1fr;
+    } 
+    .section-icon{
+        margin: 0%;
+        padding: 20px;
+        gap: 5px;
     }
-
-
-    
 }
