@@ -101,9 +101,13 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .container{
         flex-direction: column;
     }
+    .team-pic{
+        grid-template-columns: 1fr;
+    }
+
 
     
 }
