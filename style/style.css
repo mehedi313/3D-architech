@@ -61,6 +61,42 @@ nav li a{
     margin-top: 20px;
 
 }
+main{
+    max-width:1000px;
+    margin-left: auto;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.team-pic img{
+    width: 250px;
+    height: 250px;
+    
+}
+.team-text{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.team-h{
+    font-size: 45px;
+}
+.team-h .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.team-h .Features{
+    color: #FF900E;
+    font-weight: 700;
+}
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
