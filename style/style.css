@@ -175,6 +175,18 @@ main{
 .sponsors-img img{
     width: 166px;
 }
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer h5{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+}
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
